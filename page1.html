@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yasmine Frikha — Qualité des données &amp; Big Data</title>
+<meta name="description" content="Portfolio de Yasmine Frikha, étudiante en Licence Big Data et Analyse de Données (ISAMM). À la recherche d'un PFE en data quality et ingénierie de données.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="page1.css">
+</head>
+<body>
+ 
+<!-- ============ NAVBAR ============ -->
+<header>
+  <nav>
+    <a href="#home" class="logo">YF<span>.</span></a>
+    <ul>
+      <li><a href="#about">Profil</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#education">Formation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+  </nav>
+</header>
+ 
+<!-- ============ HERO ============ -->
+<section id="home" class="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">// disponible pour un PFE de 4 mois dès février 2027</p>
+      <h1>Yasmine Frikha</h1>
+      <h2>Qualité des données &amp; Big Data</h2>
+      <p class="hero-desc">
+        Étudiante en 3ème année de Licence Big Data et Analyse de Données à l'ISAMM.
+        J'ai conçu 11 règles de contrôle qualité en T-SQL lors de mon stage chez Mediasoft,
+        et je cherche un PFE en data quality et ingénierie de données.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="frikha.yasmine_cv1.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Télécharger le CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <p class="eyebrow">01 · profil</p>
+  <h2 class="section-title">À propos</h2>
+  <div class="about-grid">
+    <p class="about-text">
+      Mon fil conducteur : une analyse ne vaut que ce que valent ses données. Chez Mediasoft,
+      j'ai mis en place des contrôles automatisés avec alerting, et corrigé une erreur de
+      jointure qui faussait un indicateur clé d'un facteur proche de 4000. À l'ISAMM, j'ai
+      construit des pipelines de data mining, des analyses statistiques (ACP, AFC), des modèles
+      de machine learning et un cluster Big Data de bout en bout. Pour mon PFE, je veux travailler
+      sur des pipelines de données où la qualité est mesurée, surveillée et expliquée.
+    </p>
+    <ul class="stat-list">
+      <li><span class="stat-num">11</span><span class="stat-label">règles de qualité en T-SQL</span></li>
+      <li><span class="stat-num">6</span><span class="stat-label">projets Data / ML / Web</span></li>
+      <li><span class="stat-num">2</span><span class="stat-label">stages chez Mediasoft</span></li>
+      <li><span class="stat-num">2027</span><span class="stat-label">fin de licence, PFE dès février</span></li>
+    </ul>
+  </div>
+</section>
+ 
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="section">
+  <p class="eyebrow">02 · expérience</p>
+  <h2 class="section-title">Expérience professionnelle</h2>
+ 
+  <ol class="timeline">
+    <li>
+      <span class="timeline-date">Août – Septembre 2026</span>
+      <span class="timeline-title">Contrôle qualité des données sous SQL Server — Mediasoft</span>
+      <span class="timeline-sub">
+        Conception et déploiement de 11 règles de contrôle (unicité, intégrité référentielle,
+        format, dates aberrantes, volumétrie) en procédures stockées T-SQL, avec historisation
+        des résultats.<br>
+        Alerting automatisé de bout en bout (SQL Server Agent) et dashboard Power BI de suivi
+        quotidien des anomalies.<br>
+        Diagnostic et correction d'un bug de jointure SQL faussant un indicateur clé par un
+        facteur proche de 4000.
+      </span>
+    </li>
+    <li>
+      <span class="timeline-date">Juillet – Août 2025</span>
+      <span class="timeline-title">Stage d'observation — Mediasoft</span>
+      <span class="timeline-sub">Découverte des départements Data et Technique et de l'ERP Divalto.</span>
+    </li>
+  </ol>
+</section>
+ 
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section">
+  <p class="eyebrow">03 · réalisations</p>
+  <h2 class="section-title">Projets</h2>
+ 
+  <div class="project-grid">
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Qualité des données</span>
+        <span class="card-id">df[0]</span>
+      </div>
+      <h3>Dispositif de contrôle qualité — Mediasoft</h3>
+      <p>11 règles réparties en 5 catégories sur 6 tables, exécutées par procédures stockées,
+        historisées et suivies dans un dashboard Power BI. Une alerte part selon la criticité
+        (faible, moyenne, élevée). Projet d'entreprise : le code et les données restent
+        confidentiels, je le présente volontiers en entretien.</p>
+      <ul class="card-meta">
+        <li>SQL Server</li><li>T-SQL</li><li>SQL Server Agent</li><li>Power BI</li>
+      </ul>
+      <p class="card-result">11 règles · 5 catégories · 6 tables</p>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Data Mining</span>
+        <span class="card-id">df[1]</span>
+      </div>
+      <h3>Prédiction de réadmission hospitalière</h3>
+      <p>Pipeline complet sur un dataset volontairement dégradé (valeurs manquantes, doublons,
+        erreurs) : nettoyage, règles d'association (Apriori), clustering de patients (K-Means
+        &amp; CAH) et arbre de décision. Réalisé en binôme avec Nada Rekik.</p>
+      <ul class="card-meta">
+        <li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>mlxtend</li>
+      </ul>
+      <p class="card-result">4 profils de patients identifiés · concordance K-Means / CAH (ARI = 0,55)</p>
+      <a href="projet%20datamining%20yasmine%20frikha%20et%20nada%20rekik%20(4).ipynb" class="card-link" target="_blank" rel="noopener">Voir le notebook →</a>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Statistiques</span>
+        <span class="card-id">df[2]</span>
+      </div>
+      <h3>Analyse statistique — Olympic Athletes Events</h3>
+      <p>Analyse univariée, bivariée et multivariée (ACP, AFC) de 271 116 participations aux
+        Jeux Olympiques (1896–2016), issues d'un dataset Kaggle. Réalisé en binôme avec Nada Rekik.</p>
+      <ul class="card-meta">
+        <li>R</li><li>Statistiques descriptives</li><li>ACP / AFC</li>
+      </ul>
+      <p class="card-result">Corrélation taille–poids : r = 0,80 · lien significatif sport / médaille (Judo, Boxe)</p>
+      <a href="Rapport_Jeux_Olympiques_Final%20(1)%20(2)%20(2).pdf" class="card-link" target="_blank" rel="noopener">Lire le rapport (PDF) →</a>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Machine Learning</span>
+        <span class="card-id">df[3]</span>
+      </div>
+      <h3>Comparaison de 4 algorithmes ML — Carseats</h3>
+      <p>K-Means, KNN, Random Forest et SVM appliqués à 400 magasins de sièges auto aux
+        États-Unis, avec validation croisée. Réalisé en binôme avec Nada Rekik.</p>
+      <ul class="card-meta">
+        <li>Python</li><li>Scikit-learn</li><li>Pandas</li>
+      </ul>
+      <p class="card-result">Random Forest &amp; SVM : ~77,5 % de précision · KNN : ~76,6 %</p>
+      <a href="https://www.kaggle.com/code/yas2005/projet-ai" class="card-link" target="_blank" rel="noopener">Voir le notebook →</a>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Big Data</span>
+        <span class="card-id">df[4]</span>
+      </div>
+      <h3>Cluster Big Data — Analyse COVID-19</h3>
+      <p>Infrastructure construite de zéro : 10 conteneurs Docker orchestrés (Namenode,
+        3 Datanodes, ResourceManager, Spark Master, 2 Spark Workers) pour traiter les données
+        COVID-19 de 187 pays, avec un dashboard interactif connecté au cluster.</p>
+      <ul class="card-meta">
+        <li>Hadoop</li><li>Spark</li><li>PySpark</li><li>Docker</li><li>Flask</li>
+      </ul>
+      <p class="card-result">Taux de mortalité mondial : 3,02 % · taux de guérison : 64,82 %</p>
+      <a href="rapport_covid19_spark_ameliore%20(3).pdf" class="card-link" target="_blank" rel="noopener">Lire le rapport (PDF) →</a>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Systèmes distribués</span>
+        <span class="card-id">df[5]</span>
+      </div>
+      <h3>Architecture microservices avec load balancing</h3>
+      <p>Plusieurs services conteneurisés derrière un reverse proxy Nginx, avec répartition
+        du trafic entre les instances, pour comprendre le fonctionnement d'un load balancer.</p>
+      <ul class="card-meta">
+        <li>Docker</li><li>Docker Compose</li><li>Nginx</li>
+      </ul>
+      <p class="card-result">Répartition de charge fonctionnelle entre plusieurs services</p>
+    </article>
+ 
+    <article class="card">
+      <div class="card-head">
+        <span class="card-tag">Développement Web</span>
+        <span class="card-id">df[6]</span>
+      </div>
+      <h3>Let's Discover Tunisia</h3>
+      <p>Site de découverte touristique de la Tunisie : régions, monuments, restaurants,
+        top 3 des lieux à visiter et boutique de souvenirs artisanaux.</p>
+      <ul class="card-meta">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li>
+      </ul>
+      <p class="card-result">Plateforme complète avec boutique en ligne intégrée</p>
+      <a href="https://github.com/yasminefrikha12/projet-prog-web.git" class="card-link" target="_blank" rel="noopener">Voir sur GitHub →</a>
+    </article>
+ 
+  </div>
+</section>
+ 
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section">
+  <p class="eyebrow">04 · schéma</p>
+  <h2 class="section-title">Compétences</h2>
+ 
+  <div class="schema">
+    <div class="schema-col">
+      <h3>Données &amp; bases de données</h3>
+      <ul class="schema-list">
+        <li><span>SQL Server / T-SQL</span><em>confirmé</em></li>
+        <li><span>MySQL</span><em>confirmé</em></li>
+        <li><span>SQLite</span><em>confirmé</em></li>
+        <li><span>Power BI</span><em>confirmé</em></li>
+        <li><span>MongoDB</span><em>notions</em></li>
+      </ul>
+    </div>
+    <div class="schema-col">
+      <h3>Data science &amp; Big Data</h3>
+      <ul class="schema-list">
+        <li><span>Machine Learning</span><em>confirmé</em></li>
+        <li><span>Data Mining</span><em>confirmé</em></li>
+        <li><span>Statistiques (ACP, AFC)</span><em>confirmé</em></li>
+        <li><span>Hadoop / Spark</span><em>notions</em></li>
+      </ul>
+    </div>
+    <div class="schema-col">
+      <h3>Langages de programmation</h3>
+      <ul class="schema-list">
+        <li><span>Python</span><em>confirmé</em></li>
+        <li><span>Java</span><em>confirmé</em></li>
+        <li><span>C</span><em>confirmé</em></li>
+        <li><span>HTML / CSS</span><em>confirmé</em></li>
+        <li><span>JavaScript</span><em>notions</em></li>
+      </ul>
+    </div>
+    <div class="schema-col">
+      <h3>Environnements &amp; outils</h3>
+      <ul class="schema-list">
+        <li><span>Docker</span><em>confirmé</em></li>
+        <li><span>Git &amp; GitHub</span><em>confirmé</em></li>
+        <li><span>Ubuntu</span><em>confirmé</em></li>
+        <li><span>Anaconda / Jupyter</span><em>confirmé</em></li>
+        <li><span>VS Code</span><em>confirmé</em></li>
+      </ul>
+    </div>
+    <div class="schema-col">
+      <h3>En cours d'apprentissage</h3>
+      <ul class="schema-list">
+        <li><span>Airflow</span><em>en cours</em></li>
+        <li><span>dbt</span><em>en cours</em></li>
+        <li><span>Great Expectations</span><em>en cours</em></li>
+        <li><span>PostgreSQL</span><em>en cours</em></li>
+      </ul>
+    </div>
+    <div class="schema-col schema-col-wide">
+      <h3>Compétences transversales</h3>
+      <ul class="schema-list">
+        <li><span>Rigueur</span><em>clé</em></li>
+        <li><span>Résolution de problèmes</span><em>clé</em></li>
+        <li><span>Autonomie et curiosité technique</span><em>clé</em></li>
+        <li><span>Collaboration en équipe</span><em>clé</em></li>
+      </ul>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section">
+  <p class="eyebrow">05 · parcours</p>
+  <h2 class="section-title">Formation</h2>
+ 
+  <ol class="timeline">
+    <li>
+      <span class="timeline-date">2024 — 2027</span>
+      <span class="timeline-title">Institut Supérieur des Arts Multimédia de la Manouba</span>
+      <span class="timeline-sub">Licence en Sciences Informatiques, spécialité Big Data &amp; Analyse de Données · major de promotion en 1ère année, 5ème en 2ème année</span>
+    </li>
+  </ol>
+</section>
+ 
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section contact-section">
+  <p class="eyebrow">06 · contact</p>
+  <h2 class="section-title">Un PFE en qualité des données ?</h2>
+  <p class="contact-desc">
+    Je cherche un stage de fin d'études de 4 mois, à partir de février 2027.
+  </p>
+  <div class="contact-links">
+    <a href="mailto:yasminefrikha2@gmail.com">yasminefrikha2@gmail.com</a>
+    <a href="https://github.com/yasminefrikha12" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/yasmine-frikha-82a4ab334" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.kaggle.com/yas2005" target="_blank" rel="noopener">Kaggle</a>
+  </div>
+</section>
+ 
+<footer>
+  <p>© 2026 Yasmine Frikha — Construit avec HTML, CSS &amp; JavaScript.</p>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
